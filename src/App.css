@@ -1,0 +1,35 @@
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.img-container img {
+  animation: float 3s ease-in-out infinite; /* Float effect */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Container for the swiper effect */
+.hero-img-container {
+  display: flex;
+  width: 100%; /* Adjust based on your layout */
+  height: 120px; /* Small height for rectangular shape */
+  position: relative;
+}
+
+/* Individual images */
+.hero-img-container img {
+  width: 200px; /* Large width for rectangular shape */
+  height: 100%; /* Maintain the container's height */
+  object-fit: cover; /* Ensure images fit nicely */
+  flex-shrink: 0; /* Prevent images from shrinking */
+  margin-right: 10px; /* Optional spacing between images */
+}
+
