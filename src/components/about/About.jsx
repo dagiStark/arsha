@@ -9,7 +9,7 @@ import LinearWithValueLabel from "./LinearProgress";
 
 function About() {
   return (
-    <main className=" mt-14 flex flex-col items-center">
+    <main className=" mt-14 flex flex-col items-center pb-16">
       <div className="mb-16 px-24">
         <h1 className="text-4xl uppercase font-bold text-[#283a5ae6]">
           ABout Us

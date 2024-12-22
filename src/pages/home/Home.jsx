@@ -7,6 +7,7 @@ import Portfolio from "../../components/portfolio/Portfolio";
 import Pricing from "../../components/pricing/Pricing";
 import Services from "../../components/services/Services";
 import Team from "../../components/team/Team";
+import Testimonials from "../../components/testimonials/Testimonials";
 
 function Home() {
   return (
@@ -18,12 +19,13 @@ function Home() {
       <section>
         <Hero />
         <About />
-        {/* <Contact />
-        <Dropdown />
-        <Portfolio />
-        <Pricing />
         <Services />
-        <Team /> */}
+        <Portfolio />
+        <Team />
+        <Pricing />
+        <Testimonials />
+        <Contact />
+        {/* <Dropdown /> */}
       </section>
     </main>
   );
