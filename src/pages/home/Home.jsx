@@ -10,7 +10,7 @@ import Testimonials from "../../components/testimonials/Testimonials";
 
 function Home() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <nav>
         <Navbar />
       </nav>

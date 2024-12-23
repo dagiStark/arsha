@@ -20,8 +20,8 @@ function Portfolio() {
             Portfolio
           </h1>
           <p className="text-xl text-black/40 mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-            magni?
+            Some of recent project that we have successfully submitted to our
+            clients
           </p>
         </motion.div>
       </section>

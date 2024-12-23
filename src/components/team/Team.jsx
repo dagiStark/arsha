@@ -19,8 +19,7 @@ function Team() {
             Team
           </h1>
           <p className="text-xl text-black/40 mt-4 mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-            magni?
+            Connect with out brilliant and persistent team members
           </p>
         </div>
       </motion.section>

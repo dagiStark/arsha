@@ -17,8 +17,7 @@ function Testimonials() {
               Testimonials
             </h1>
             <p className="text-xl text-black/40 mt-4 mb-16">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-              magni?
+              Discover what our global clients have to say about our services.
             </p>
           </div>
         </motion.section>
@@ -39,10 +38,8 @@ function Testimonials() {
               Frequently Asked Questions
             </h1>
             <p className="text-xl text-black/40 mt-4 mb-10">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-              magni Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Minima, ea. Lorem ipsum dolor, sit amet consectetur adipisicing
-              elit. Error, magni?
+              Curious about our services? Here are some of the most common
+              questions we get from our clients.
             </p>
           </div>
           <TestimonialAccordion />

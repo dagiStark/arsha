@@ -15,8 +15,7 @@ function Pricing() {
             Pricing
           </h1>
           <p className="text-xl text-black/40 mt-4 mb-16">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-            magni?
+            what we call fair price exchange, try it!
           </p>
         </div>
       </motion.section>

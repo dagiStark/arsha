@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <main className=" mt-14 flex flex-col items-center pb-16" id="about">
+    <main className="mt-14 flex flex-col items-center pb-16" id="about">
       <motion.div
         className="mb-16 px-24"
         whileInView={{ z: 0, opacity: 1 }}
@@ -19,7 +19,7 @@ function About() {
         transition={{ duration: 0.8 }}
       >
         <h1 className="text-4xl uppercase font-bold text-[#283a5ae6]">
-          ABout Us
+          About Us
         </h1>
       </motion.div>
 
@@ -30,10 +30,10 @@ function About() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true, amount: 0.05 }}
       >
-        <div className=" w-[50%] text-wrap flex flex-col gap-4">
+        <div className="w-[50%] text-wrap flex flex-col gap-4">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-            esse! Lorem ipsum dolor sit.
+            We are a team of passionate professionals dedicated to delivering
+            exceptional solutions to our clients. 
           </p>
 
           <ul className="flex flex-col gap-2">
@@ -48,9 +48,8 @@ function About() {
 
         <div className="text-wrap w-[50%] flex flex-col gap-9">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            blanditiis laudantium quidem expedita tempore quis inventore
-            temporibus, amet repellendus voluptatibus.
+            Our mission is to empower businesses by providing top-notch services
+            that drive success and foster growth. 
           </p>
 
           <div>
@@ -73,37 +72,38 @@ function About() {
       >
         <div className="flex flex-col gap-4 w-[60%]">
           <h1 className="text-4xl font-semibold text-[#283a5ae6]">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.{" "}
+            Why Choose Us?{" "}
             <span className="text-[#0f1725c8] font-bold">
-              Exercitationem, corrupti?
-            </span>{" "}
+              Your Success Matters
+            </span>
           </h1>
 
           <p className="text-lg text-black/40 font-medium">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
-            veniam voluptatibus beatae totam saepe sit! Lorem ipsum dolor sit
-            amet.
+            We understand the challenges businesses face and provide tailored
+            solutions to overcome them. From strategy to execution, our
+            expertise ensures your goals are met.
           </p>
           <AccordionUsage />
         </div>
 
         <div className="flex flex-col gap-4 w-[40%]">
-          <img src={whyUs} alt="why us" loading="lazy" />
+          <img src={whyUs} alt="Why Choose Us" loading="lazy" />
         </div>
       </motion.section>
 
       <motion.section className="px-24 flex justify-between mt-16 gap-4">
         <div>
-          <img src={skills} alt="skills" loading="lazy" />
+          <img src={skills} alt="Our Skills" loading="lazy" />
         </div>
 
         <div className="flex flex-col gap-5">
           <h3 className="font-bold text-5xl text-[#37517e]">
-            Voluptatem dignissimos provident quasi corporis voluptas
+            Expertise That Drives Results
           </h3>
           <p className="italic text-xl text-black/40">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Our team is equipped with a diverse skill set to tackle complex
+            projects efficiently. We continuously refine our abilities to stay
+            ahead in the industry.
           </p>
 
           <div>
@@ -115,7 +115,7 @@ function About() {
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true, amount: 0.1 }}
               >
-                <h3 className="font-bold ">{skill.name}</h3>
+                <h3 className="font-bold">{skill.name}</h3>
                 <LinearWithValueLabel progress={skill.percentage} />
               </motion.div>
             ))}

@@ -40,7 +40,7 @@ function Hero() {
           initial={{ x: 200, opacity: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-6xl font-bold text-white ">
+          <h1 className="text-6xl font-bold text-white mb-16">
             Better Solutions For Your Business
           </h1>
           <p className="text-white/40 text-3xl font-semibold">

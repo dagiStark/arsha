@@ -6,7 +6,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 export default function AccordionUsage() {
   return (
     <div className="flex flex-col gap-4">
-      <Accordion className=" text-[17px] leading-[24px]">
+      <Accordion className="text-[17px] leading-[24px]">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
@@ -14,16 +14,17 @@ export default function AccordionUsage() {
         >
           <p className="text-[#47b2e4] font-[500]">
             <span className="mr-2">01</span>
-            Non consectetur a erat nam at lectus urna duis?
+            How do we ensure quality in our services?
           </p>
         </AccordionSummary>
         <AccordionDetails className="text-[#444444]">
-          Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat
-          lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla
-          urna porttitor rhoncus dolor purus non.
+          Our team follows a strict quality assurance process, combining expert
+          reviews with real-time feedback to deliver exceptional results
+          tailored to your needs.
         </AccordionDetails>
       </Accordion>
-      <Accordion className=" text-[17px] leading-[24px]">
+
+      <Accordion className="text-[17px] leading-[24px]">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -31,18 +32,17 @@ export default function AccordionUsage() {
         >
           <p className="text-[#47b2e4] font-[500]">
             <span className="mr-2">02</span>
-            Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+            What industries do we cater to?
           </p>
         </AccordionSummary>
         <AccordionDetails className="text-[#444444]">
-          Dolor sit amet consectetur adipiscing elit pellentesque habitant
-          morbi. Id interdum velit laoreet id donec ultrices. Fringilla
-          phasellus faucibus scelerisque eleifend donec pretium. Est
-          pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-          cursus turpis massa tincidunt dui.
+          We specialize in providing solutions across various sectors, including
+          technology, healthcare, retail, and finance, ensuring customized
+          services for each industry.
         </AccordionDetails>
       </Accordion>
-      <Accordion className=" text-[17px] leading-[24px]">
+
+      <Accordion className="text-[17px] leading-[24px]">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -50,15 +50,13 @@ export default function AccordionUsage() {
         >
           <p className="text-[#47b2e4] font-[500]">
             <span className="mr-2">03</span>
-            Dolor sit amet consectetur adipiscing elit pellentesque?
+            Why choose us over competitors?
           </p>
         </AccordionSummary>
         <AccordionDetails className="text-[#444444]">
-          Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis
-          orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra
-          diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
-          Lectus urna duis convallis convallis tellus. Urna molestie at
-          elementum eu facilisis sed odio morbi quis
+          Our client-first approach, innovative solutions, and commitment to
+          excellence set us apart from competitors. Partner with us to
+          experience unmatched dedication and expertise.
         </AccordionDetails>
       </Accordion>
     </div>

@@ -21,11 +21,11 @@ function Contact() {
         >
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-4xl uppercase font-bold text-[#283a5ae6] mt-12">
-              Contact
+              Contact Us
             </h1>
             <p className="text-xl text-black/40 mt-4 mb-16">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-              magni?
+              Get in touch with us for any questions, support, or inquiries. We
+              are here to help!
             </p>
           </div>
         </motion.section>
@@ -114,11 +114,12 @@ function Contact() {
 
         <section>
           <div className="flex flex-col items-center justify-center bg-[#f5f6f8] px-24 mt-16 py-8">
-            <h1 className="text-4xl uppercase font-bold text-[#283a5ae6] ">
-              Join Out Newsletter
+            <h1 className="text-4xl uppercase font-bold text-[#283a5ae6]">
+              Join Our Newsletter
             </h1>
             <p className="text-xl text-black/40 mt-4 mb-16">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
+              Subscribe to stay updated with the latest news, insights, and
+              exclusive offers directly to your inbox!
             </p>
 
             <Paper
@@ -197,14 +198,14 @@ function Contact() {
                 Follow Us
               </h1>
               <p className="text-black/70 mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae, mollitia!
+                Stay connected with us on social media for the latest updates,
+                news, and more!
               </p>
               <div className="text-black/70 flex gap-2">
-                <XIcon />
                 <FacebookIcon />
                 <InstagramIcon />
                 <LinkedInIcon />
+                <XIcon/>
               </div>
             </div>
           </div>

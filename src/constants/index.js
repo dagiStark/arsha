@@ -54,15 +54,17 @@ export const navbarLinks = [
 export const aboutItems = [
   {
     id: 1,
-    description: "We are a team of talented individuals  ",
+    description:
+      "We strive to deliver exceptional solutions with creativity and expertise.",
   },
   {
     id: 2,
-    description: "We are a team of talented individuals  ",
+    description:
+      "Our mission is to innovate and exceed expectations in every project.",
   },
   {
     id: 3,
-    description: "We are a team of talented individuals",
+    description: "We value teamwork, integrity, and a passion for excellence.",
   },
 ];
 
@@ -88,22 +90,25 @@ export const skillItems = [
 export const serviceItems = [
   {
     title: "Web Design",
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    description:
+      "Creating visually appealing and user-friendly website layouts.",
     icon: Activity,
   },
   {
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    description: "Building responsive, robust, and scalable web applications.",
     icon: Album,
   },
   {
     title: "BOT Development",
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    description:
+      "Developing intelligent bots to automate tasks and improve efficiency.",
     icon: Radio,
   },
   {
     title: "UI/UX Design",
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    description:
+      "Crafting intuitive and engaging user interfaces for seamless experiences.",
     icon: Scan,
   },
 ];
@@ -153,25 +158,26 @@ export const teamMembers = [
     img: team1,
     name: "John Doe",
     designation: "CEO",
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    description: "Leading the company with strategic vision and innovation.",
   },
   {
     img: team2,
-    name: "John Doe",
-    designation: "CEO",
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    name: "Jane Smith",
+    designation: "CTO",
+    description:
+      "Driving technological advancements and ensuring robust solutions.",
   },
   {
     img: team3,
-    name: "John Doe",
-    designation: "CEO",
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    name: "Mark Johnson",
+    designation: "COO",
+    description: "Overseeing operations to ensure efficiency and excellence.",
   },
   {
     img: team4,
-    name: "John Doe",
-    designation: "CEO",
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    name: "Emily Davis",
+    designation: "CFO",
+    description: "Managing financial strategies to achieve sustainable growth.",
   },
 ];
 
@@ -179,40 +185,41 @@ export const pricingCards = [
   {
     title: "Basic",
     price: 0,
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    description: "Perfect for individuals getting started with basic features.",
     features: [
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
+      "Access to essential tools",
+      "Basic analytics and reporting",
+      "Community support",
+      "Limited customization options",
+      "Up to 5 projects",
     ],
   },
   {
     title: "Pro",
     price: 29,
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    description: "Designed for professionals who need advanced functionality.",
     features: [
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
+      "All Basic features included",
+      "Advanced analytics and insights",
+      "Priority customer support",
+      "Customizable templates",
+      "Unlimited projects",
     ],
   },
   {
     title: "Enterprise",
     price: 49,
-    description: "Lorem ipsum dolor sit amet consectetur ",
+    description: "Comprehensive features tailored for large-scale businesses.",
     features: [
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
-      "Lorem ipsum dolor sit amet consectetur ",
+      "All Pro features included",
+      "Dedicated account manager",
+      "Team collaboration tools",
+      "API access and integrations",
+      "Custom enterprise solutions",
     ],
   },
 ];
+
 
 export const testimonialItems = [
   {
@@ -220,7 +227,7 @@ export const testimonialItems = [
     name: "John Doe",
     designation: "Co-Founder & CEO",
     description:
-      "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur ",
+      "This team transformed our vision into reality with exceptional expertise and creativity.",
     img: testimonial1,
     rating: 5,
   },
@@ -229,7 +236,7 @@ export const testimonialItems = [
     name: "Jena Karlis",
     designation: "Store Owner",
     description:
-      "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur ",
+      "Their attention to detail and dedication have greatly improved my business operations.",
     img: testimonial2,
     rating: 5,
   },
@@ -238,7 +245,7 @@ export const testimonialItems = [
     name: "Sarah Wilsson",
     designation: "HR",
     description:
-      "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur ",
+      "A fantastic experience! They delivered outstanding results, surpassing all expectations.",
     img: testimonial3,
     rating: 5,
   },
@@ -247,7 +254,7 @@ export const testimonialItems = [
     name: "Matt Brandon",
     designation: "Freelancer",
     description:
-      "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur ",
+      "Highly professional and incredibly talented, they made the process smooth and enjoyable.",
     img: testimonial4,
     rating: 5,
   },
@@ -256,37 +263,38 @@ export const testimonialItems = [
     name: "John Larsor",
     designation: "Entrepreneur",
     description:
-      "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur ",
+      "Their innovative solutions have significantly enhanced my business growth and success.",
     img: testimonial5,
     rating: 5,
   },
 ];
 
+
 export const frequentQuestions = [
   {
-    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae",
+    title: "What services do you offer?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni?",
+      "We offer a wide range of services, including web design, development, UI/UX design, and bot development tailored to meet your needs.",
   },
   {
-    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae",
+    title: "How long does it take to complete a project?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni?",
+      "The timeline depends on the project's complexity and requirements. Typically, projects take between 2 to 6 weeks to complete.",
   },
   {
-    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae",
+    title: "Do you provide post-launch support?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni?",
+      "Yes, we offer ongoing maintenance and support to ensure your product continues to perform optimally after launch.",
   },
   {
-    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae",
+    title: "What is your pricing structure?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni?",
+      "Our pricing is flexible and depends on the project scope. We provide customized quotes after an initial consultation.",
   },
   {
-    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae",
+    title: "Can you work with tight deadlines?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, magni?",
+      "Yes, we can accommodate tight deadlines without compromising quality. Please share your requirements, and we’ll do our best to meet them.",
   },
 ];
 

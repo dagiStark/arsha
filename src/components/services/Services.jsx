@@ -26,8 +26,8 @@ function Services() {
               Services
             </h1>
             <p className="text-xl text-black/40 mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-              magni?
+              Discover the wide range of solutions we offer to cater to your
+              needs.
             </p>
           </motion.div>
           <div>
@@ -63,9 +63,9 @@ function Services() {
           <div className="w-[70%] p-8">
             <h2 className="text-[28px] font-bold">Call To Action</h2>
             <p className="font-normal text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              quam at cupiditate eligendi, ex nobis sapiente. Temporibus
-              nesciunt esse aspernatur.
+              Ready to elevate your projects to the next level? Connect with us
+              today and discover how our expertise can make a difference. Give us
+              a call and let&apos;s talk about your project.
             </p>
           </div>
 
