@@ -3,11 +3,17 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { motion } from "framer-motion";
 
 function Team() {
   return (
-    <main className="">
-      <section>
+    <main className="" id="team">
+      <motion.section
+        whileInView={{ y: 0, opacity: 1 }}
+        initial={{ y: 200, opacity: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true, amount: 0.1 }}
+      >
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl uppercase font-bold text-[#283a5ae6] mt-12">
             Team
@@ -17,16 +23,20 @@ function Team() {
             magni?
           </p>
         </div>
-      </section>
+      </motion.section>
 
       <section>
         <div>
           <div className="flex flex-wrap gap-10 items-center justify-center">
             {teamMembers.map((member, index) => {
               return (
-                <div
+                <motion.div
                   key={index}
                   className="flex items-center p-10 shadow-xl gap-10 w-[40%]"
+                  whileInView={{ x: 0, opacity: 1 }}
+                  initial={{ x: -200, opacity: 0 }}
+                  transition={{ duration: 0.8 }}
+                  viewport={{ once: true, amount: 0.1 }}
                 >
                   <div>
                     <img
@@ -53,7 +63,7 @@ function Team() {
                       <LinkedInIcon />
                     </div>
                   </div>
-                </div>
+                </motion.div>
               );
             })}
           </div>

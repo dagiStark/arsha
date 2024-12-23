@@ -6,18 +6,19 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import {
-  TextField,
-  Button,
-  Paper,
-  InputBase,
-} from "@mui/material";
+import { TextField, Button, Paper, InputBase } from "@mui/material";
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <main>
+    <main id="contact">
       <div className="">
-        <section>
+        <motion.section
+          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: 200, opacity: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true, amount: 0.1 }}
+        >
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-4xl uppercase font-bold text-[#283a5ae6] mt-12">
               Contact
@@ -27,7 +28,7 @@ function Contact() {
               magni?
             </p>
           </div>
-        </section>
+        </motion.section>
 
         <section className="flex justify-center gap-10">
           <div className="flex flex-col gap-5 border-y-4 border-y-[#47b2e4] py-5 w-[40%] rounded-lg">
@@ -167,7 +168,9 @@ function Contact() {
 
             <div className="flex justify-between gap-10">
               <ul>
-                <h1  className="text-xl font-bold text-[#283a5ae6] mb-4">Useful Links</h1>
+                <h1 className="text-xl font-bold text-[#283a5ae6] mb-4">
+                  Useful Links
+                </h1>
                 {contactLinks.usefulLinks.map((link, index) => (
                   <li key={index} className="text-black/70 flex gap-2">
                     <ArrowForwardIosIcon className="text-[#47b2e4]" />
@@ -176,7 +179,9 @@ function Contact() {
                 ))}
               </ul>
               <ul>
-                <h1  className="text-xl font-bold text-[#283a5ae6] mb-4">Our Services</h1>
+                <h1 className="text-xl font-bold text-[#283a5ae6] mb-4">
+                  Our Services
+                </h1>
                 {contactLinks.serviceLinks.map((link, index) => (
                   <li key={index} className="text-black/70 flex gap-2">
                     {" "}
@@ -188,7 +193,9 @@ function Contact() {
             </div>
 
             <div className="flex flex-col flex-wrap w-[30%]">
-              <h1  className="text-xl font-bold text-[#283a5ae6] mb-2">Follow Us</h1>
+              <h1 className="text-xl font-bold text-[#283a5ae6] mb-2">
+                Follow Us
+              </h1>
               <p className="text-black/70 mb-6">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Recusandae, mollitia!

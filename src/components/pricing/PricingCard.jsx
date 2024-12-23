@@ -2,6 +2,7 @@ import { pricingCards } from "../../constants";
 import CheckIcon from "@mui/icons-material/Check";
 import CloseIcon from "@mui/icons-material/Close";
 import { Button } from "@mui/material";
+import { motion } from "framer-motion";
 
 function PricingCard() {
   return (
@@ -9,11 +10,15 @@ function PricingCard() {
       <div>
         <div className="flex items-center justify-center gap-16">
           {pricingCards.map((card, indexB) => (
-            <div
+            <motion.div
               key={indexB}
               className={`p-10 shadow-xl rounded-lg bg-white ${
                 indexB === 1 && "border-t-4 border-t-[#47b2e4]"
               }`}
+              whileInView={{ y: 0, opacity: 1 }}
+              initial={{ y: 200, opacity: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true, amount: 0.1 }}
             >
               <h1 className=" font-bold text-[#283a5ae6] text-2xl mb-2">
                 {card.title}
@@ -60,7 +65,7 @@ function PricingCard() {
                 {" "}
                 Buy Now
               </Button>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

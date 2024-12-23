@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import { Play } from "lucide-react";
 import { useEffect, useRef } from "react";
+import { motion } from "framer-motion";
 
 import heroImg from "../../assets/img/hero-img.png";
 import client1 from "../../assets/img/clients/client-1.png";
@@ -31,14 +32,19 @@ function Hero() {
   }, []);
 
   return (
-    <main className="">
+    <main className="" id="hero">
       <section className="bg-[#37517e] pl-24 pr-24 pb-24 pt-32 flex items-center justify-center ">
-        <div className="text-wrap flex flex-col gap-6 w-[50%]">
+        <motion.div
+          className="text-wrap flex flex-col gap-6 w-[50%]"
+          animate={{ x: 0, opacity: 1 }}
+          initial={{ x: 200, opacity: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <h1 className="text-6xl font-bold text-white ">
             Better Solutions For Your Business
           </h1>
           <p className="text-white/40 text-3xl font-semibold">
-          We are team of talented designers making websites with React
+            We are team of talented designers making websites with React
           </p>
 
           <div className="text-white">
@@ -71,15 +77,20 @@ function Hero() {
               watch video
             </Button>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="img-container">
+        <motion.div
+          className="img-container"
+          animate={{ y: 0, opacity: 1 }}
+          initial={{ y: 200, opacity: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <img src={heroImg} alt="hero image" loading="lazy" />
-        </div>
+        </motion.div>
       </section>
 
       <section className="py-8 px-24 bg-[#f5f6f8]">
-        <div className="flex h-[40px] gap-x-8 ">
+        <div className="flex h-[40px] gap-x-8 justify-center">
           <img src={client1} alt="client-1" loading="lazy" />
           <img src={client2} alt="client-2" loading="lazy" />
           <img src={client3} alt="client-3" loading="lazy" />

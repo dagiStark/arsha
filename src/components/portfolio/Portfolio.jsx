@@ -1,22 +1,29 @@
 import { Button } from "@mui/material";
 import { useState } from "react";
 import { portfolioItems } from "../../constants";
+import { motion } from "framer-motion";
 
 function Portfolio() {
   const [activeButton, setActiveButton] = useState("all");
   const buttons = ["all", "app", "card", "web"];
   return (
-    <main className="px-24 py-16">
+    <main className="px-24 py-16" id="portfolio">
       <section>
-        <div className="flex flex-col items-center justify-center">
+        <motion.div
+          className="flex flex-col items-center justify-center"
+          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: 200, opacity: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true, amount: 0.1 }}
+        >
           <h1 className="text-4xl uppercase font-bold text-[#283a5ae6]">
-            Services
+            Portfolio
           </h1>
           <p className="text-xl text-black/40 mt-4">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
             magni?
           </p>
-        </div>
+        </motion.div>
       </section>
 
       <section>
@@ -48,7 +55,13 @@ function Portfolio() {
         <div>
           <div className="flex gap-5 flex-wrap justify-center ">
             {portfolioItems.map((item, index) => (
-              <div key={index}>
+              <motion.div
+                key={index}
+                whileInView={{ y: 0, opacity: 1 }}
+                initial={{ y: 200, opacity: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true, amount: 0.1 }}
+              >
                 {(activeButton === "all" || item.category === activeButton) && (
                   <img
                     src={item.img}
@@ -57,7 +70,7 @@ function Portfolio() {
                     loading="lazy"
                   />
                 )}
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
